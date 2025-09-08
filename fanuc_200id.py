@@ -1,21 +1,16 @@
+from math import pi
+
 import numpy as np
 import roboticstoolbox as rtb
-from math import pi
 
 if __name__ == "__main__":
     L = [
         rtb.RevoluteDH(a=0, alpha=0, d=0.33, offset=0),
-
-        rtb.RevoluteDH(a=0.050, alpha=-pi / 2, d=0., offset=0),
-
+        rtb.RevoluteDH(a=0.050, alpha=-pi / 2, d=0.0, offset=0),
         rtb.RevoluteDH(a=0.440, alpha=0, d=0.00151, offset=-pi / 2),
-
         rtb.RevoluteDH(a=0.035, alpha=-pi / 2, d=0, offset=0),
-
         rtb.RevoluteDH(a=0, alpha=pi / 2, d=0.420, offset=0),
-
-        rtb.RevoluteDH(a=0, alpha=-pi / 2, d=0., offset=0),
-
+        rtb.RevoluteDH(a=0, alpha=-pi / 2, d=0.0, offset=0),
         rtb.RevoluteDH(a=0, alpha=0, d=0.080, offset=0),
     ]
 

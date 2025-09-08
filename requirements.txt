@@ -1,2 +1,5 @@
-numpy
+numpy~=1.26.4
 roboticstoolbox-python
+
+sympy~=1.13.1
+matplotlib~=3.8.3
